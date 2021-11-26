@@ -236,9 +236,35 @@ body {
 
     width: 528px;
     height: 581px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
 
     background-color: var(--nav-bg_text-color);
-    padding: 20px;
+    padding: 8px;
+}
+.close-button-conatainer {
+    display: flex;
+    justify-content: end;
+
+    margin-bottom: 20px;
+}
+.modal-button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.modal-button-close {
+    height: 11px;
+    width: 11px;
 }
 /*
     Advantages
